@@ -45,7 +45,6 @@ void xor_encryption (char* file) {
 	FILE *fp;
 	char *content;
 	long length;
-	long len;
 	
 	fp = fopen(file, "rb+");
 
@@ -56,9 +55,9 @@ void xor_encryption (char* file) {
 		content = malloc(length + 1);
 		
 		if (content) {
-			len = fread(content, 1, length, fp);
+			length = fread(content, 1, length, fp);
 			
-			if (len == length) {
+			if (length) {
 				
 				rewind(fp);
 				
