@@ -9,4 +9,4 @@ In case you want to have it in a pen to auto-execute but at the same time avoidi
 Key: H43_xor_encryption          
 Value: H43
 
-Don't be evil :)
+Don't be evil because I don't take any responsibility for your bad use :)
