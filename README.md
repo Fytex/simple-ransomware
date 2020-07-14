@@ -11,4 +11,7 @@ Key: H43_xor_encryption
 
 Value: H43
 
+
+Leave a star in this project if you liked :)
+
 Don't be evil because I don't take any responsability for your bad use :)
