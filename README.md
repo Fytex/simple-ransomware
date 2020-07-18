@@ -1,7 +1,7 @@
 # Just a Simple Ransomware made in C for Windows
 
 
-This ransomware uses XOR cypher to encrypt the files. It will only affect non-system files under User desktop's directory. This is limited to User's directory but you can specify another relative instead of Desktop's one or None by changing **RELATIVE_FOLDER**'s value in main.c.
+This ransomware uses XOR cipher to encrypt the files. It will only affect non-system files under User desktop's directory. This is limited to User's directory but you can specify another relative instead of Desktop's one or None by changing **RELATIVE_FOLDER**'s value in main.c.
 
 Once you run the program it will check if the first file is encrypted or not. If it´s not encrypted it will encrypt all the not encrypted others and vice versa.
 
