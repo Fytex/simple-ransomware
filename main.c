@@ -69,11 +69,11 @@ void xor_encryption (char* file) {
 					*tmp = *tmp ^ CRYPTO_NUM;
 
 				fwrite(content, 1, length, fp);
-			}	
+			}
+			free(content);
 		}
 		
 		fclose(fp);
-		free(content);
 	}
 
 	if (encrypt) {
